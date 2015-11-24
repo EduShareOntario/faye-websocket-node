@@ -8,7 +8,7 @@
 , "version"         : "0.10.0"
 , "engines"         : {"node": ">=0.4.0"}
 , "main"            : "./lib/faye/websocket"
-, "dependencies"    : {"websocket-driver": ">=0.5.1"}
+, "dependencies"    : {"websocket-driver": "https://github.com/EduShareOntario/websocket-driver-node/archive/master.tar.gz"}
 , "devDependencies" : {"jstest": "", "pace": "", "permessage-deflate": ""}
 
 , "scripts"         : {"test": "jstest spec/runner.js"}
